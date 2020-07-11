@@ -11,6 +11,7 @@ print(numbers)
 
 #list comprehension
 squares = [num*num for num in numbers]
+print(numbers)
 
 #create new list containing only even values of 'numbers'
 #long way
