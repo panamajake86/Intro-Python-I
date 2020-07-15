@@ -31,14 +31,18 @@ import os
 
 # Print the current process ID
 # YOUR CODE HERE
+pid = os.getpid()
 
-print(getpid(os))
+print(pid)
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
+cwd = os.getcwd()
 
-
+print(cwd)
 
 # Print out your machine's login name
 # YOUR CODE HERE
+login = os.getlogin()
 
+print(login)
