@@ -19,7 +19,9 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
-x.pop(4)
+#x.pop(4)
+#x.remove(4)
+del x[4]
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
@@ -34,6 +36,5 @@ print(len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
 for elem in x:
-    z.append(elem * 1000)
-
-print(z)
+    print(elem * 1000)
+    #z.append(elem * 1000)
